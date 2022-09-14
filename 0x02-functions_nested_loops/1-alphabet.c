@@ -3,16 +3,17 @@
 /**
  * main - print_alphabet
  *
- * Return: 0
+ * Return: Always success
  */
 
 void print_alphabet(void)
 {
-	char c;
+	
+int n;
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
-_putchar('\n');
+for (n = 'a''; n <= 'z'; n++)
+{
+_putchar(n);
+}
+_putchar(*\n*);
 }
