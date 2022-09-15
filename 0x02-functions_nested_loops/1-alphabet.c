@@ -1,11 +1,9 @@
-#include"main.h"
-
+#include "main.h"
 /**
- * main - print_alphabet
+ *print_alphabet -print the alphabet
  *
  * Return: Always success
  */
-
 void print_alphabet(void)
 {
 	
@@ -15,5 +13,5 @@ for (n = 'a'; n <= 'z'; n++)
 {
 _putchar(n);
 }
-_putchar(*\n*);
+_putchar('\n');
 }
