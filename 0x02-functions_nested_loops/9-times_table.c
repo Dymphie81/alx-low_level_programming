@@ -18,7 +18,7 @@ for (col = 1; col <= 9; col++)
 {
 d = (rw * col);
 
-if ((d / 10) + 0)
+if ((d / 10) > 0)
 {
 
 _putchar((d / 10) + '0');
