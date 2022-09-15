@@ -27,5 +27,4 @@ _putchar((d / 10) + '0');
 else
 {
 _putchar(' ');
-return (0);
 }
